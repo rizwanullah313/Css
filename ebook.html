@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="style.css">
  <style>
-      li{
+    /*  li{
       //list-style-type: none;
       //list-style-type: square;
       //list-style-position: inside;
@@ -13,13 +13,42 @@
       //list-style-image: url(f.jpeg);
       // text-shadow: red 0 0 3px, black 4px 4px 10px;
       // first inside and second outside color hy
+}*/
+        /* div[data-color] {
+   color: red;
+  }*/
 
+/*div[data-color="green"] {
+ color: red;
+}*/
+
+/*[class*="foo"] {
+ color: red;
+}*/
+
+/*[class~="color-red"]{
+color: red;}
+*/
+
+/*[class^="foo-"] {
+ color: red;
 }
+ye start k words deek raha hy 
+*/
+
+/*
+[class$="file"] {
+ color: red;
+}
+ye last wala deek raha hy
+*/
+        
+
     </style>
   </head>
 
   <body>
-    <h1>Hello world!</h1>
+   <!--- <h1>Hello world!</h1>
     <p>I ♥ CSS</p>
      <ul>
       <li>pakistan</li>
@@ -27,6 +56,41 @@
       <li>japan</li>
       <li>america</li>
     </ul>
+--->
+    
+    <!--- <div data-color="red">This will be red</div>
+    <div data-color="green">This will be red</div>
+    <div data-background="red">This will NOT be red</div>
+-->
+
+    <!-- <div data-color="red">This will be red</div>
+    <div data-color="green">This will NOT be red</div>
+    <div data-color="blue">This will NOT be red</div>
+  -->
+
+    <!---<div class="foo-123">This will be red</div>
+<div class="foo123">This will be red</div>
+<div class="bar123foo">This will be red</div>
+<div class="barfooo123">This will be red</div>
+<div class="barfo0">This will NOT be red</div>
+--->
+
+    <!--
+<div class="color-red foo-bar the-div">This will be red</div>
+<div class="color-blue foo-bar the-div">This will NOT be red</div>
+-->
+
+    <!---
+<div class="foo-123-s">This will be red</div>
+<div class="foo-234-c">This will be red</div>
+<div class="bar-123-6">This will NOT be red</div>
+-->
+
+    <!--
+<div class="foobar-file">This will be red</div>
+<div class="foobar-file">This will be red</div>
+<div class="foobar-input">This will NOT be red</div>
+  -->
   </body>
 
 </html>
